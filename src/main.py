@@ -16,8 +16,8 @@ from pytorch_lightning.loggers import NeptuneLogger
 def get_logger():
     neptune_logger = NeptuneLogger(
         api_key = open('../neptune_api.txt').read().strip(),
-        project_name = 'kagglesin/cass-leaf',
-        experiment_name= '0213',
+        project_name = 'xxx/cass-leaf',
+        experiment_name= 'xxxxxxx',
         params= dict(vars(args)), 
     )
     return neptune_logger
