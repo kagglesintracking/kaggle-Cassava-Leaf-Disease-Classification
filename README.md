@@ -27,7 +27,7 @@
 For example, if the config file is `config1.py`, do
 ```
 cd src
-python train.py --config config1
+python main.py --config config1
 ```
 ## Dependencies
 ```
